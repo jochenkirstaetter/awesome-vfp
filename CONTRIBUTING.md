@@ -15,3 +15,9 @@ Please ensure your pull request adheres to the following guidelines:
 - The pull request should have a useful title and include a link to the package and why it should be included.
 
 Thank you for your suggestions!
+
+## Branch Protection & Commit Sign-Off (DCO)
+
+- **Pull Requests Only**: Direct pushes and force-pushes to the default branch (`main` / `master`) are disabled. Always create a feature branch and open a Pull Request.
+- **Mandatory Commit Sign-Off (`-s`)**: Every commit must be signed off under the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) using `git commit -s` (which adds a `Signed-off-by: Name <email>` trailer). You can enable this globally with `git config --global format.signoff true`.
+
